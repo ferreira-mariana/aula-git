@@ -1,0 +1,26 @@
+body{
+	background-color: white;
+
+}
+
+.container{
+	background-color: orange;
+
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+
+	padding: 10px 20px 10px 20px;
+
+	/*
+	margin: 40px; tudo 40px
+	margin: 20px 30px; top e bottom 20px e right e left 30px		
+	*/
+
+	width: 300px;
+	height: 200px;
+
+	
+	
+}
