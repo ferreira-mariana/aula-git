@@ -1,0 +1,9 @@
+TRABALHO DE ANÁLISE
+grupo: Bruno Xavier, Beatriz Tantow e Mariana Ferreira.
+
+Localização das lojas
+
+Requisitos: 
+Section com exposição das filiais com imagem, texto descritivo e API do google maps de cada uma.
+
+A ordem de carregamento é de acordo com a proximidade do cliente a loja.
