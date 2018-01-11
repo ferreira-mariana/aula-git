@@ -5,6 +5,8 @@
 	padding: 0;
 }
 
+/* menu */
+
 .menu{
 	background: #252525;
 }
@@ -211,3 +213,42 @@
 	box-shadow: 180px 0 0 0 #252525 inset;
 	transition: 0.8s;
 }
+
+/* locais */
+
+.locais{
+	margin: 20px 0;
+}
+
+.locais-item-texto h2{
+	font-size: 2.25em;
+	
+}
+
+.locais-item-texto p{
+	font-size: 1.125em;
+	margin-top: 10px;
+}
+
+.locais-btn{
+	display: block;  /*para modificar o link*/
+	width: 160px;
+	text-transform: uppercase;
+	border: 3px solid #252525;
+	color: #252525;
+	text-decoration: none;
+	font-weight: 700; /*ou bold*/
+	font-size: 1.125em;
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0; 
+	transition: 0.8s;
+}
+
+.locais-btn:hover{
+	color: #e7e4d8;
+	box-shadow: 160px 0 0 0 #252525 inset;
+	transition: 0.8s;
+}
+
+
