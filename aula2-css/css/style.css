@@ -217,22 +217,44 @@
 /* locais */
 
 .locais{
-	margin: 20px 0;
+	margin: 70px 0;
 }
 
-.locais-item-texto h2{
-	font-size: 2.25em;
+.locais-item::before, .locais-item::after{
+	content:'';
+	display: table;
+	clear: both;
+}
+
+.locais-item{
+	max-width: 960px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.locais-item img{
+	float: left;
+	max-width: 460px;
+	margin: 0 25px;
 	
 }
 
-.locais-item-texto p{
+.locais-item h2{
+	font-size: 2.25em;
+	font-family: serif;
+}
+
+.locais-item p{
 	font-size: 1.125em;
-	margin-top: 10px;
+	font-family: georgia;
+	line-height: 1.4em;
+	margin-top: 20px;
+	margin-bottom: 30px;
 }
 
 .locais-btn{
 	display: block;  /*para modificar o link*/
-	width: 160px;
+	width: 140px;
 	text-transform: uppercase;
 	border: 3px solid #252525;
 	color: #252525;
@@ -241,14 +263,13 @@
 	font-size: 1.125em;
 	text-align: center;
 	padding: 10px 0;
-	margin: 20px 0; 
+	margin: 0 510px; 
 	transition: 0.8s;
 }
 
 .locais-btn:hover{
 	color: #e7e4d8;
-	box-shadow: 160px 0 0 0 #252525 inset;
+	box-shadow: 140px 0 0 0 #252525 inset;
 	transition: 0.8s;
 }
-
 
