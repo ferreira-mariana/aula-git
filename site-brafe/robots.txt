@@ -1,0 +1,7 @@
+User-agent: *
+
+Allow: /sobre
+Allow: /produtos
+
+Disallow: /portfolio
+Disallow: /contato
