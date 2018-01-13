@@ -5,3 +5,6 @@ Allow: /produtos
 
 Disallow: /portfolio
 Disallow: /contato
+Disallow: /saibamais
+Disallow: /vermapa
+Disallow: /enviar
