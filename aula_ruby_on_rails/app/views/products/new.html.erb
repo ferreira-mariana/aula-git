@@ -1,0 +1,42 @@
+<h1>Novo Produto</h1>
+
+<p><%= notice %></p>
+<p><%= alert  %></p>
+
+<br>
+
+<%= form_for @product, url: :products, method: :post do |form| %>
+  <!-- checa se houve erros de validação e exibe-os na tela em caso positivo -->
+  <% if @product.errors.any? && @product.errors[:name] %>
+    <!-- sintaxe para a tag html label -->
+    <!-- admite classes css utilizando class: -->
+    <%= form.label "Nome #{@product.errors[:name].first}" %>
+  <% else %>
+    <%= form.label "Nome" %>
+  <% end %>
+  <!-- sintaxe para a tag html input type=text -->
+  <!-- admite classes css utilizando class: -->
+  <%= form.text_field :name %>
+  <br>
+  <br>
+
+  <% if @product.errors.any? && @product.errors[:category] %>
+    <%= form.label "Categoria #{@product.errors[:category].first}" %>
+  <% else %>
+    <%= form.label "Categoria" %>
+  <% end %>
+  <%= form.text_field :category %>
+  <br>
+  <br>
+
+<% if @product.errors.any? && @product.errors[:price] %>
+    <%= form.label "Preço #{@product.errors[:price].first}" %>
+  <% else %>
+    <%= form.label "Preço" %>
+  <% end %>
+  <%= form.number_field :price %>
+  <br>
+  <br>
+
+  <%= form.submit "Adicionar Produto" %>
+<% end %>

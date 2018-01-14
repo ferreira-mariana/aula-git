@@ -11,7 +11,4 @@ class StaticPagesController < ApplicationController
   def junte
   end
 
-  def products
-  end
-
 end
