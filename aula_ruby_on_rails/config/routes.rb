@@ -10,6 +10,7 @@ Rails.application.routes.draw do
   get 'sobre', to:"static_pages#about", as: :about
   get 'contato', to:"static_pages#contact", as: :contact
   get 'junte-se', to:"static_pages#junte", as: :junte
+  get 'produtos', to:"static_pages#products", as: :products
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
