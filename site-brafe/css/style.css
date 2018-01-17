@@ -366,6 +366,7 @@
 
 .footer-container img{
 	float: right;
+	cursor: pointer;
 }
 
 .footer::after, .footer::before{
