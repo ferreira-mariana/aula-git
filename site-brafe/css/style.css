@@ -9,6 +9,9 @@
 
 .menu{
 	background: #252525;
+	position: fixed;
+	width: 100%;
+	z-index:99;
 }
 
 .menu a{
