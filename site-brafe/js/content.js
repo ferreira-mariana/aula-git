@@ -18,4 +18,8 @@ $('.sobre-item h3').fadeOut();
 		$('html body').animate({scrollTop: 0}, 250);
 	});
 
+	$('.produtos-item p').hover( function() {
+		$(this).css('font-size','1.125em');
+	});
+
 });
